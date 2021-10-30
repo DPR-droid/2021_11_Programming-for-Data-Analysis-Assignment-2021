@@ -3,7 +3,7 @@ Programming for Data Analysis Assignment 2021 - Due: last commit on or before 22
 
 ***
 
-Assignment Statement
+# Assignment Statement
 
 Create a Jupyter notebook explaining the use of the package, including detailed explanations of at least five of the distributions provided for in the package
 
@@ -15,5 +15,10 @@ There are four distinct tasks to be carried out in your Jupyter notebook.
 
 ***
 
-Create github repository
+# Steps
+
+- Create github repository 
+- Clone github repository 
+- Create numpy-random.ipynb
+- Commit changes to repository
 
