@@ -1,0 +1,8 @@
+numpy
+matplotlib
+requests
+datetime
+pandas
+urllib
+urllib.request
+tabula

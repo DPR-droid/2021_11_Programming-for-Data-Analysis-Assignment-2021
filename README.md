@@ -15,10 +15,46 @@ There are four distinct tasks to be carried out in your Jupyter notebook.
 
 ***
 
+# Notes
+
+This README only contains an explanation of what is contained in the repository and how to run the Jupyter notebook. The Jupyter notebook contains the main body of work and list all references used the assignment.
+
+***
+
 # Steps
 
 - Create github repository 
 - Clone github repository 
 - Create numpy-random.ipynb
-- Commit changes to repository
+- Commit changes regulary to repository
+
+***
+
+# Review the Assignment
+
+How to run or review the Jupyter notebook.      
+
+## Github
+Review the assignment [Click here numpy-random.ipynb](https://github.com/DPR-droid/Programming-for-Data-Analysis-Assignment-2021/blob/main/numpy-random.ipynb)
+
+## NBViewer
+NBViewer is another way to share Jupyter Notebook.
+
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/DPR-droid/Programming-for-Data-Analysis-Assignment-2021/blob/main/numpy-random.ipynb)
+
+## Binder
+Try this assignment without installing by clicking the Binder badge below, this allows you to run the Jupyter notebook in an online virtual executable environment, making the code immediately reproducible by anyone, anywhere.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DPR-droid/Programming-for-Data-Analysis-Assignment-2021/becd3f7d94b7bdecb7c4938527e2c41e4a191dd5?filepath=numpy-random.ipynb)
+
+## Try at home
+
+To try this on your own PC you require the following:
+- Install Anaconda https://www.anaconda.com/products/individual this ditribution includes Python and serveral packages used in this Assignment including the numpy package. 
+- 'requirments.txt' for other modules required. 
+- Install Jupyter https://jupyter.org/ to run numpy-random.ipynb
+- Install Github
+- git clone git@github.com:DPR-droid/Fundamentals-of-Data-Analysis-2021.git
+
+***
 
