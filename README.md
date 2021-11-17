@@ -19,6 +19,8 @@ There are four distinct tasks to be carried out in your Jupyter notebook.
 
 This README only contains an explanation of what is contained in the repository and how to run the Jupyter notebook. The Jupyter notebook contains the main body of work and list all references used the assignment.
 
+The Jupyter notebook uses NumPy v1.21 Manual for references, this is important for the user to understand as the documentation is changing and updating. 
+
 ***
 
 # Steps
