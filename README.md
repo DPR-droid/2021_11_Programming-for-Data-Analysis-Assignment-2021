@@ -17,7 +17,7 @@ There are four distinct tasks to be carried out in your Jupyter notebook.
 
 # Notes
 
-This README only contains an explanation of what is contained in the repository and how to run the Jupyter notebook. The Jupyter notebook contains the main body of work and list all references used the assignment.
+This README only contains an explanation on how to run the Jupyter notebook. The Jupyter notebook contains the main body of work and list all references used the assignment.
 
 The Jupyter notebook uses NumPy v1.21 Manual for references, this is important for the user to understand as the documentation is changing and updating. 
 
@@ -47,7 +47,7 @@ NBViewer is another way to share Jupyter Notebook.
 ## Binder
 Try this assignment without installing by clicking the Binder badge below, this allows you to run the Jupyter notebook in an online virtual executable environment, making the code immediately reproducible by anyone, anywhere.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DPR-droid/Programming-for-Data-Analysis-Assignment-2021/becd3f7d94b7bdecb7c4938527e2c41e4a191dd5?filepath=numpy-random.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DPR-droid/Programming-for-Data-Analysis-Assignment-2021/main?filepath=numpy-random.ipynb)
 
 ## Try at home
 
