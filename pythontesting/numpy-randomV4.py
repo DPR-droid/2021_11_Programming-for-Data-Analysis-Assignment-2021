@@ -13,12 +13,16 @@
 ########################################################################
 # Import numpy module
 import numpy as np
-
 # Import mathplotlib
 import matplotlib.pyplot as plt
-
 # Import time
 import time
+# import seaborn
+import seaborn as sns
+# import warnings
+import warnings
+warnings.filterwarnings("ignore")
+
 ########################################################################
 # Get user version of Numpy required for np.random.default_rng()
 # This is discussed later in the assignment
@@ -36,12 +40,15 @@ print('###############################################################\n\n\n\n')
 # Plot function 
 ########################################################################
 def plotsforassignment(example, titlename, labelx, labely, binno):
+    sns.distplot(example, hist=True, kde=True, 
+             bins=binno, color = 'red', 
+             hist_kws={'edgecolor':'black'},
+             kde_kws={'linewidth': 4})
     count, bins, ignored = plt.hist(example, binno, edgecolor='black', density=True)
     plt.title(titlename)
     plt.xlabel(labelx)
     plt.ylabel(labely)
     plt.show()
-
 
 
 ########################################################################
@@ -99,6 +106,15 @@ randomintegers = rng.integers(100, size=10000)
 # Create a plot to see the randomness
 plotsforassignment(randomintegers, 'Uniform distribution', 'Array', 'Count', 10)
 
+# Increasing the values and see the affect on the histogram
+# 100 to 800
+# 10000 to 3000000
+rng = np.random.default_rng()
+# Create an array
+randomintegers = rng.integers(800, size=3000000)
+# Create a plot to see the randomness
+plotsforassignment(randomintegers, 'Uniform distribution', 'Array', 'Count', 10)
+
 
 ########################################################################
 # Example 3
@@ -109,6 +125,16 @@ plotsforassignment(randomintegers, 'Uniform distribution', 'Array', 'Count', 10)
 ########################################################################
 rng = np.random.default_rng()
 rng.random()
+
+########################################################################
+# This example is illustrates generating 100 random floats for x and y
+# and display on a scatter plot [30]
+########################################################################
+rng = np.random.default_rng()
+x = rng.random(100)
+y = rng.random(100)
+
+plt.scatter(x, y, marker='o')
 
 
 ########################################################################
@@ -225,7 +251,7 @@ plotsforassignment(spam, 'Binomial Distribution', 'Probability is SPAM', 'SPAM C
 # Example 10
 ########################################################################
 # Poisson Distribution
-# Probability of SPAM
+# I'm Hungry
 ########################################################################
 # Input lam - rate or known number of occurences e.g. 2 for above problem.
 # Input size - The shape of the returned array = 1000
@@ -239,7 +265,7 @@ plotsforassignment(hungry, 'Poisson Distribution', 'Eating per day', 'Probabilit
 # Example 11
 ########################################################################
 # Exponential Distribution
-# Probability of SPAM
+# There she blows
 ########################################################################
 # Input the minutes of the eruption 40
 # Input sample size 1000
@@ -247,7 +273,6 @@ rng = np.random.default_rng()
 geyser  = np.random.exponential(40, 1000)
 # Plot Function
 plotsforassignment(geyser, 'Exponential Distribution', 'Minutes', 'Probability', 20)
-
 
 ########################################################################
 # Example 12
