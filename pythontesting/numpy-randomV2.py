@@ -13,12 +13,16 @@
 ########################################################################
 # Import numpy module
 import numpy as np
-
 # Import mathplotlib
 import matplotlib.pyplot as plt
-
 # Import time
 import time
+# import seaborn
+import seaborn as sns
+# import warnings
+import warnings
+warnings.filterwarnings("ignore")
+
 ########################################################################
 # Get user version of Numpy required for np.random.default_rng()
 # This is discussed later in the assignment
@@ -36,12 +40,15 @@ print('###############################################################\n\n\n\n')
 # Plot function 
 ########################################################################
 def plotsforassignment(example, titlename, labelx, labely, binno):
+    sns.distplot(example, hist=True, kde=True, 
+             bins=binno, color = 'red', 
+             hist_kws={'edgecolor':'black'},
+             kde_kws={'linewidth': 4})
     count, bins, ignored = plt.hist(example, binno, edgecolor='black', density=True)
     plt.title(titlename)
     plt.xlabel(labelx)
     plt.ylabel(labely)
     plt.show()
-
 
 
 ########################################################################
@@ -247,7 +254,6 @@ rng = np.random.default_rng()
 geyser  = np.random.exponential(40, 1000)
 # Plot Function
 plotsforassignment(geyser, 'Exponential Distribution', 'Minutes', 'Probability', 20)
-
 
 ########################################################################
 # Example 12

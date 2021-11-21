@@ -37,17 +37,17 @@ The Jupyter notebook uses NumPy v1.21 Manual for references, this is important f
 How to run or review the Jupyter notebook.      
 
 ## Github
-Review the assignment [Click here numpy-random.ipynb](https://github.com/DPR-droid/Programming-for-Data-Analysis-Assignment-2021/blob/main/numpy-randomV2.ipynb)
+Review the assignment [Click here numpy-random.ipynb](https://github.com/DPR-droid/Programming-for-Data-Analysis-Assignment-2021/blob/main/numpy-randomV3.ipynb)
 
 ## NBViewer
 NBViewer is another way to share Jupyter Notebook.
 
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/DPR-droid/Programming-for-Data-Analysis-Assignment-2021/blob/main/numpy-randomV2.ipynb)
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/DPR-droid/Programming-for-Data-Analysis-Assignment-2021/blob/main/numpy-randomV3.ipynb)
 
 ## Binder
 Try this assignment without installing by clicking the Binder badge below, this allows you to run the Jupyter notebook in an online virtual executable environment, making the code immediately reproducible by anyone, anywhere.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DPR-droid/Programming-for-Data-Analysis-Assignment-2021/main?filepath=numpy-random.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DPR-droid/Programming-for-Data-Analysis-Assignment-2021/main?filepath=numpy-randomV3.ipynb)
 
 ## Try at home
 
