@@ -23,6 +23,12 @@ The Jupyter notebook uses NumPy v1.21 Manual for references, this is important f
 
 If you decide to run this in binder or try at home, why not change some of the values to see what changes it makes to the outputs or graphics.
 
+**import warnings** not included in requirements.txt as it was causing an issue when building the online virtual executable environment.
+
+A Version Control folder is added.
+
+A python code is included in the Version Control folder called [numpy-randomV6.py](https://github.com/DPR-droid/Programming-for-Data-Analysis-Assignment-2021/blob/main/Version%20Control/numpy-randomV6.py)
+
 ***
 
 # Steps
@@ -50,6 +56,8 @@ NBViewer is another way to share Jupyter Notebook.
 Try this assignment without installing by clicking the Binder badge below, this allows you to run the Jupyter notebook in an online virtual executable environment, making the code immediately reproducible by anyone, anywhere. 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DPR-droid/Programming-for-Data-Analysis-Assignment-2021/main?filepath=numpy-randomV6.ipynb)
+
+**import warnings** not included in requirements.txt as it was causing an issue when building the online virtual executable environment.
 
 ## Try at home
 
